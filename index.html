@@ -3,26 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Mini Projects Portfolio</title>
+    <title>My Web Journey</title>
     <style>
-        body { font-family: 'Segoe UI', sans-serif; padding: 50px; line-height: 1.6; background: #f4f4f4; }
-        .container { max-width: 600px; margin: auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
-        h1 { color: #333; }
-        ul { list-style: none; padding: 0; }
-        li { margin: 20px 0; border-bottom: 1px solid #eee; padding-bottom: 10px; }
-        a { text-decoration: none; color: #ff3131; font-weight: bold; font-size: 1.2rem; }
-        a:hover { text-decoration: underline; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body { 
+            font-family: 'Inter', sans-serif; 
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container { 
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            padding: 40px;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            width: 100%;
+            max-width: 500px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        }
+
+        h1 { margin-bottom: 10px; font-weight: 700; letter-spacing: -1px; }
+        p { color: #aaa; margin-bottom: 30px; font-size: 0.9rem; }
+        
+        ul { list-style: none; }
+        
+        li { margin-bottom: 15px; }
+        
+        a { 
+            display: block;
+            padding: 15px 20px;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            text-decoration: none; 
+            color: #fff; 
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        a:hover { 
+            background: #ff3131;
+            transform: translateX(10px);
+            box-shadow: 0 4px 15px rgba(255, 49, 49, 0.3);
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>My Mini Projects</h1>
-        <p>A collection of my web development journey:</p>
+        <h1>My Projects</h1>
+        <p>A curated collection of my web dev progression.</p>
         
         <ul>
-            <li><a href="Day 3 Rotating Navigation/index.html">1. Rotating Navigation</a></li>
-            <li><a href="Day 2 Progress Steps/index.html">2. Expanding Cards</a></li>
-            <li><a href="Day 3 Rotating Navigation/index.html">3. Progress Steps</a></li>
+            <li><a href="Day 1 Expanding Cards/index.html">1. Expanding Cards</a></li>
+            <li><a href="Day 2 Progress Steps/index.html">2. Progress Steps</a></li>
+            <li><a href="Day 3 Rotating Navigation/index.html">3. Rotating Navigation</a></li>
         </ul>
     </div>
 </body>
